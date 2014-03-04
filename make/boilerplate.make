@@ -69,6 +69,21 @@ defaults[projects][overwrite] = TRUE
 ;projects[zen][version] = 5.4
 
 
+; PP Features
+; -----------
+
+; PP Media
+;projects[pp_media][type] = module
+;projects[pp_media][download][type] = git
+;projects[pp_media][download][url] = http://git.drupal.org/sandbox/asgorobets/2198449.git
+;projects[pp_media][download][branch] = master
+;projects[pp_media][subdir] = custom
+
+; PP WYSIWYG
+;projects[pp_wysiwyg][type] = "module"
+;projects[pp_wysiwyg][subdir] = "custom"
+;projects[pp_wysiwyg][download][type] = "git"
+
 ; Modules
 ; -------
 
@@ -397,10 +412,10 @@ defaults[projects][overwrite] = TRUE
 ;projects[tablefield][version] = 2.2
 ;projects[textformatter][version] = 1.3
 ;projects[timeago][version] = 2.2
-projects[title][version] = 1.0-alpha7
+;projects[title][version] = 1.0-alpha7
 ;projects[tmgmt][version] = 1.0-beta2
 ;projects[tmgmt_google][version] = 1.0-alpha2
-projects[token][version] = 1.5
+;projects[token][version] = 1.5
 ;projects[token_filter][version] = 1.1
 ;projects[token_insert][version] = 2.1
 ;projects[touch_icons][version] = 1.0-beta2
@@ -408,27 +423,27 @@ projects[token][version] = 1.5
 ;projects[trash_flag][version] = 1.0-beta1
 ;projects[transliteration][version] = 3.1
 
-projects[ultimate_cron][version] = 1.9
-projects[ultimate_cron_queue_scaler][version] = 1.0
+;projects[ultimate_cron][version] = 1.9
+;projects[ultimate_cron_queue_scaler][version] = 1.0
 ;projects[upload_default_avatar][version] = 1.0
 ;projects[url][version] = 1.0
 ;projects[user_revision][version] = 1.6
 ;projects[user_stats][version] = 1.x-dev
 ;projects[usermerge][version] = 1.x-dev
 ;projects[username_enumeration_prevention][version] = 1.0
-projects[uuid][version] = 1.0-alpha5
-projects[uuid_features][version] = 1.0-alpha3
+;projects[uuid][version] = 1.0-alpha5
+;projects[uuid_features][version] = 1.0-alpha3
 
-projects[variable][version] = 2.4
+;projects[variable][version] = 2.4
 ;projects[variablecheck][version] = 1.4
 ;projects[varnish][version] = 1.0-beta2
 ;projects[vcard][version] = 1.5
 ;projects[view_mode_page][version] = 2.2
-projects[views][version] = 3.7
-projects[views_field_view][version] = 1.1
+;projects[views][version] = 3.7
+;projects[views_field_view][version] = 1.1
 ;projects[view_unpublished][version] = 1.1
 ;projects[views_autocomplete_filters][version] = 1.0
-projects[views_bulk_operations][version] = 3.2
+;projects[views_bulk_operations][version] = 3.2
 ;projects[views_dependent_filters][version] = 1.1
 ;projects[views_cache_bully][version] = 3.0
 ;projects[views_conditional][version] = 1.1
@@ -448,7 +463,7 @@ projects[views_bulk_operations][version] = 3.2
 
 ;projects[waypoints][version] = 1.0
 ;projects[webform][version] = 3.19
-projects[webform][version] = 4.0-beta1
+;projects[webform][version] = 4.0-beta1
 ;projects[webform_remote_post][version] = 1.1
 ;projects[webform_validation][version] = 1.2
 ;projects[weight][version] = 2.3
@@ -458,13 +473,13 @@ projects[webform][version] = 4.0-beta1
 ;projects[workbench_files][version] = 1.0
 ;projects[workbench_media][version] = 1.1
 ;projects[workbench_moderation][version] = 1.3
-projects[wysiwyg][version] = 2.2
+;projects[wysiwyg][version] = 2.2
 ;projects[wysiwyg_filter][version] = 1.6-rc2
 ;projects[wysiwyg_imagefield][version] = 1.x-dev
 ;projects[wysiwyg_template][version] = 2.10
 
 ;projects[xhprof][version] = 1.0-beta2
-projects[xmlsitemap][version] = 2.0-rc2
+;projects[xmlsitemap][version] = 2.0-rc2
 
 
 ; Libraries
